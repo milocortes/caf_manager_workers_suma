@@ -1,9 +1,9 @@
 CC=g++
 CFLAGS=-c -Wall -std=c++17
 LDFLAGS=
-SOURCES= manager_workers_suma.cpp
+SOURCES= manager_workers_suma_cli.cpp
 OBJECTS=$(SOURCES:.cpp=.o)
-EXECUTABLE= manager_workers_suma
+EXECUTABLE= manager_workers_suma_cli
 
 all: $(SOURCES) $(EXECUTABLE)
 
